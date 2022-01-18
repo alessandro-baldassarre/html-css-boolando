@@ -32,6 +32,7 @@
 .main-container{
     width: 80%;
     margin: 0 auto;
+    padding-top: 30px;
 
 }
 
@@ -39,7 +40,7 @@
 .row{
     
     text-align: center;
-    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 /* singolo prodotto */
