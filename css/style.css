@@ -32,23 +32,22 @@
 .main-container{
     width: 80%;
     margin: 0 auto;
-    border: 1px solid red;
+
 }
 
 /* singola riga di prodotti */
 .row{
     text-align: center;
     margin-top: 10px;
-    border: 1px solid red;
 }
 
 /* singolo prodotto */
 .card{
     display: inline-block;
     width: 300px;
-    border: 1px solid red;
 }
 
+/* immagine del prodotto varie icone all'interno */
 .img-container{
     width: 100%;
 }
@@ -78,8 +77,6 @@
 
 }
 
-
-
 /* scambio di immagini durante l'hover */
 .invisible{
     display: none;
@@ -92,3 +89,30 @@
 .card:hover .visible{
     display: none;
 }
+
+/* nome e prezzo del prodotto */
+.name-price-product{
+    text-align: left;
+}
+
+.brand{
+    font-size: .6em;
+    color: gray;
+}
+
+.name{
+    font-size: .7em;
+}
+
+.price{
+    
+    font-size: .6em;
+    color: red;
+
+}
+
+.old{
+    color: grey;
+    text-decoration: line-through;
+}
+
