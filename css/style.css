@@ -15,6 +15,19 @@
     position: absolute;
 }
 
+/* impostare colore di background rosso ad un elemento */
+.bg-red{
+    background-color: red;
+    
+
+}
+/* impostare colore di background verde ad un elemento */
+.bg-green{
+    background-color: green;
+
+
+}
+
 /* contenitore principale */
 .main-container{
     width: 80%;
@@ -32,18 +45,16 @@
 /* singolo prodotto */
 .card{
     display: inline-block;
-    width: 250px;
+    width: 300px;
     border: 1px solid red;
 }
 
 .img-container{
     width: 100%;
-    border: 1px solid red;
 }
 
 .img-product{
     width: 100%;
-    border: 1px solid red;
 }
 
 .favourite-icon-item{
@@ -53,6 +64,20 @@
     top: 10px;
     right: 0;
 }
+
+.discount-category{
+    bottom: 15px;
+    left: 0;
+}
+
+.tag{
+    color: white;
+    padding: 3px;
+    font-size: .6em;
+    font-weight: bold;
+
+}
+
 
 
 /* scambio di immagini durante l'hover */
