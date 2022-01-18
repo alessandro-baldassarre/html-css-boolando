@@ -94,6 +94,10 @@
     display: none;
 }
 
+.card:active .favourite-icon-item{
+    color: red;
+}
+
 /* nome e prezzo del prodotto */
 .name-price-product{
     text-align: left;
