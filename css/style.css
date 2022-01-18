@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+/* impostare posizionamento relativo ad un elemento */
+.relative{
+    position: relative;
+}
+
+/* impostare posizionamento assoluto ad un elemento */
+.absolute{
+    position: absolute;
+}
+
 /* contenitore principale */
 .main-container{
     width: 80%;
@@ -38,6 +48,10 @@
 
 .favourite-icon-item{
     background-color: white;
+    padding: 5px;
+    font-size: .8em;
+    top: 10px;
+    right: 0;
 }
 
 
