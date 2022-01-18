@@ -37,14 +37,16 @@
 
 /* singola riga di prodotti */
 .row{
+    
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 /* singolo prodotto */
 .card{
     display: inline-block;
     width: 300px;
+    margin-right: 10px;
 }
 
 /* immagine del prodotto varie icone all'interno */
