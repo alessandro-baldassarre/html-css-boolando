@@ -4,3 +4,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* contenitore principale */
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+/* singola riga di prodotti */
+.row{
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid red;
+}
+
+/* singolo prodotto */
+.card{
+    display: inline-block;
+    width: 250px;
+    border: 1px solid red;
+}
+
+.img-container{
+    width: 100%;
+    border: 1px solid red;
+}
+
+.img-product{
+    width: 100%;
+    border: 1px solid red;
+}
+
+.favourite-icon-item{
+    background-color: white;
+}
+
+
+/* scambio di immagini durante l'hover */
+.invisible{
+    display: none;
+}
+
+.card:hover .invisible{
+    display: inline-block;
+}
+
+.card:hover .visible{
+    display: none;
+}
